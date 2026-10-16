@@ -1,0 +1,28 @@
+# 운영체제 및 편집기 임시 파일
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# 로컬 설정 및 인증 정보
+.env
+.env.*
+*.pem
+*.key
+credentials*
+secrets*
+
+# 개인 자료 및 강의 원본은 공개하지 않음
+private/
+personal/
+*.pdf
+*.m4a
+*.mp3
+
+# 실행 결과 및 캐시
+*.log
+__pycache__/
+node_modules/
+build/
+dist/
